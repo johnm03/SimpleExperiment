@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DD4BDB21355D420065FF24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD4BDA21355D420065FF24 /* AppDelegate.swift */; };
+		E1DD4BDD21355D420065FF24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD4BDC21355D420065FF24 /* ViewController.swift */; };
+		E1DD4BE021355D420065FF24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DD4BDE21355D420065FF24 /* Main.storyboard */; };
+		E1DD4BE221355D430065FF24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DD4BE121355D430065FF24 /* Assets.xcassets */; };
+		E1DD4BE521355D430065FF24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DD4BE321355D430065FF24 /* LaunchScreen.storyboard */; };
+		E1DD4BF421355E1D0065FF24 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD4BF321355E1D0065FF24 /* AnotherViewController.swift */; };
+		E1DD4BF621355E2A0065FF24 /* AnotherViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DD4BF521355E2A0065FF24 /* AnotherViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1DD4C132135828F0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4C0F2135828E0065FF24 /* DynamicLib1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4C042135828E0065FF24;
+			remoteInfo = DynamicLib1;
+		};
+		E1DD4C332135845C0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4C2F2135845B0065FF24 /* DynamicLib2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4C242135845B0065FF24;
+			remoteInfo = DynamicLib2;
+		};
+		E1DD4C4E2135846C0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4C4A2135846B0065FF24 /* DynamicLib3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4C3F2135846B0065FF24;
+			remoteInfo = DynamicLib3;
+		};
+		E1DD4C692135847C0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4C652135847A0065FF24 /* DynamicLib4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4C5A2135847A0065FF24;
+			remoteInfo = DynamicLib4;
+		};
+		E1DD4C842135848A0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4C80213584890065FF24 /* DynamicLib5.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4C75213584890065FF24;
+			remoteInfo = DynamicLib5;
+		};
+		E1DD4C9F213584A30065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4C9B213584A10065FF24 /* DynamicLib6.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4C90213584A10065FF24;
+			remoteInfo = DynamicLib6;
+		};
+		E1DD4CBA213584B00065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4CB6213584AF0065FF24 /* DynamicLib7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4CAB213584AE0065FF24;
+			remoteInfo = DynamicLib7;
+		};
+		E1DD4CD5213584BD0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4CD1213584BC0065FF24 /* DynamicLib8.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4CC6213584BC0065FF24;
+			remoteInfo = DynamicLib8;
+		};
+		E1DD4CF0213584CB0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4CEC213584C90065FF24 /* DynamicLib9.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4CE1213584C90065FF24;
+			remoteInfo = DynamicLib9;
+		};
+		E1DD4D0B213584DD0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4D07213584DB0065FF24 /* DynamicLib10.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4CFC213584DB0065FF24;
+			remoteInfo = DynamicLib10;
+		};
+		E1DD4D2E213586BD0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4D2A213586BC0065FF24 /* StaticLib1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4D20213586BC0065FF24;
+			remoteInfo = StaticLib1;
+		};
+		E1DD4D47213586CB0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4D43213586CA0065FF24 /* StaticLib2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4D39213586CA0065FF24;
+			remoteInfo = StaticLib2;
+		};
+		E1DD4D60213586D60065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4D5C213586D50065FF24 /* StaticLib3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4D52213586D50065FF24;
+			remoteInfo = StaticLib3;
+		};
+		E1DD4D79213586E40065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4D75213586E30065FF24 /* StaticLib4.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4D6B213586E20065FF24;
+			remoteInfo = StaticLib4;
+		};
+		E1DD4D92213586F60065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4D8E213586F50065FF24 /* StaticLib5.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4D84213586F50065FF24;
+			remoteInfo = StaticLib5;
+		};
+		E1DD4DAB213587020065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4DA7213587000065FF24 /* StaticLib6.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4D9D213587000065FF24;
+			remoteInfo = StaticLib6;
+		};
+		E1DD4DC4213587130065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4DC0213587120065FF24 /* StaticLib7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4DB6213587120065FF24;
+			remoteInfo = StaticLib7;
+		};
+		E1DD4DDD2135871F0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4DD92135871E0065FF24 /* StaticLib8.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4DCF2135871E0065FF24;
+			remoteInfo = StaticLib8;
+		};
+		E1DD4DF62135872A0065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4DF2213587280065FF24 /* StaticLib9.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4DE8213587280065FF24;
+			remoteInfo = StaticLib9;
+		};
+		E1DD4E0F213587370065FF24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DD4E0B213587360065FF24 /* StaticLib10.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1DD4E01213587360065FF24;
+			remoteInfo = StaticLib10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1DD4BD721355D420065FF24 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DD4BDA21355D420065FF24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1DD4BDC21355D420065FF24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1DD4BDF21355D420065FF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1DD4BE121355D430065FF24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1DD4BE421355D430065FF24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1DD4BE621355D430065FF24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DD4BF321355E1D0065FF24 /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		E1DD4BF521355E2A0065FF24 /* AnotherViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnotherViewController.storyboard; sourceTree = "<group>"; };
+		E1DD4C0F2135828E0065FF24 /* DynamicLib1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib1.xcodeproj; path = DynamicLib1/DynamicLib1.xcodeproj; sourceTree = "<group>"; };
+		E1DD4C2F2135845B0065FF24 /* DynamicLib2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib2.xcodeproj; path = DynamicLib2/DynamicLib2.xcodeproj; sourceTree = "<group>"; };
+		E1DD4C4A2135846B0065FF24 /* DynamicLib3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib3.xcodeproj; path = DynamicLib3/DynamicLib3.xcodeproj; sourceTree = "<group>"; };
+		E1DD4C652135847A0065FF24 /* DynamicLib4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib4.xcodeproj; path = DynamicLib4/DynamicLib4.xcodeproj; sourceTree = "<group>"; };
+		E1DD4C80213584890065FF24 /* DynamicLib5.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib5.xcodeproj; path = DynamicLib5/DynamicLib5.xcodeproj; sourceTree = "<group>"; };
+		E1DD4C9B213584A10065FF24 /* DynamicLib6.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib6.xcodeproj; path = DynamicLib6/DynamicLib6.xcodeproj; sourceTree = "<group>"; };
+		E1DD4CB6213584AF0065FF24 /* DynamicLib7.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib7.xcodeproj; path = DynamicLib7/DynamicLib7.xcodeproj; sourceTree = "<group>"; };
+		E1DD4CD1213584BC0065FF24 /* DynamicLib8.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib8.xcodeproj; path = DynamicLib8/DynamicLib8.xcodeproj; sourceTree = "<group>"; };
+		E1DD4CEC213584C90065FF24 /* DynamicLib9.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib9.xcodeproj; path = DynamicLib9/DynamicLib9.xcodeproj; sourceTree = "<group>"; };
+		E1DD4D07213584DB0065FF24 /* DynamicLib10.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DynamicLib10.xcodeproj; path = DynamicLib10/DynamicLib10.xcodeproj; sourceTree = "<group>"; };
+		E1DD4D2A213586BC0065FF24 /* StaticLib1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib1.xcodeproj; path = StaticLib1/StaticLib1.xcodeproj; sourceTree = "<group>"; };
+		E1DD4D43213586CA0065FF24 /* StaticLib2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib2.xcodeproj; path = StaticLib2/StaticLib2.xcodeproj; sourceTree = "<group>"; };
+		E1DD4D5C213586D50065FF24 /* StaticLib3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib3.xcodeproj; path = StaticLib3/StaticLib3.xcodeproj; sourceTree = "<group>"; };
+		E1DD4D75213586E30065FF24 /* StaticLib4.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib4.xcodeproj; path = StaticLib4/StaticLib4.xcodeproj; sourceTree = "<group>"; };
+		E1DD4D8E213586F50065FF24 /* StaticLib5.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib5.xcodeproj; path = StaticLib5/StaticLib5.xcodeproj; sourceTree = "<group>"; };
+		E1DD4DA7213587000065FF24 /* StaticLib6.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib6.xcodeproj; path = StaticLib6/StaticLib6.xcodeproj; sourceTree = "<group>"; };
+		E1DD4DC0213587120065FF24 /* StaticLib7.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib7.xcodeproj; path = StaticLib7/StaticLib7.xcodeproj; sourceTree = "<group>"; };
+		E1DD4DD92135871E0065FF24 /* StaticLib8.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib8.xcodeproj; path = StaticLib8/StaticLib8.xcodeproj; sourceTree = "<group>"; };
+		E1DD4DF2213587280065FF24 /* StaticLib9.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib9.xcodeproj; path = StaticLib9/StaticLib9.xcodeproj; sourceTree = "<group>"; };
+		E1DD4E0B213587360065FF24 /* StaticLib10.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLib10.xcodeproj; path = StaticLib10/StaticLib10.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1DD4BD421355D420065FF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1DD4BCE21355D420065FF24 = {
+			isa = PBXGroup;
+			children = (
+				E1DD4E0B213587360065FF24 /* StaticLib10.xcodeproj */,
+				E1DD4DF2213587280065FF24 /* StaticLib9.xcodeproj */,
+				E1DD4DD92135871E0065FF24 /* StaticLib8.xcodeproj */,
+				E1DD4DC0213587120065FF24 /* StaticLib7.xcodeproj */,
+				E1DD4DA7213587000065FF24 /* StaticLib6.xcodeproj */,
+				E1DD4D8E213586F50065FF24 /* StaticLib5.xcodeproj */,
+				E1DD4D75213586E30065FF24 /* StaticLib4.xcodeproj */,
+				E1DD4D5C213586D50065FF24 /* StaticLib3.xcodeproj */,
+				E1DD4D43213586CA0065FF24 /* StaticLib2.xcodeproj */,
+				E1DD4D2A213586BC0065FF24 /* StaticLib1.xcodeproj */,
+				E1DD4D07213584DB0065FF24 /* DynamicLib10.xcodeproj */,
+				E1DD4CEC213584C90065FF24 /* DynamicLib9.xcodeproj */,
+				E1DD4CD1213584BC0065FF24 /* DynamicLib8.xcodeproj */,
+				E1DD4CB6213584AF0065FF24 /* DynamicLib7.xcodeproj */,
+				E1DD4C9B213584A10065FF24 /* DynamicLib6.xcodeproj */,
+				E1DD4C80213584890065FF24 /* DynamicLib5.xcodeproj */,
+				E1DD4C652135847A0065FF24 /* DynamicLib4.xcodeproj */,
+				E1DD4C4A2135846B0065FF24 /* DynamicLib3.xcodeproj */,
+				E1DD4C2F2135845B0065FF24 /* DynamicLib2.xcodeproj */,
+				E1DD4C0F2135828E0065FF24 /* DynamicLib1.xcodeproj */,
+				E1DD4BD921355D420065FF24 /* SimpleApp */,
+				E1DD4BD821355D420065FF24 /* Products */,
+				E1DD4BEC21355D6D0065FF24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1DD4BD821355D420065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4BD721355D420065FF24 /* SimpleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4BD921355D420065FF24 /* SimpleApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4BDA21355D420065FF24 /* AppDelegate.swift */,
+				E1DD4BDC21355D420065FF24 /* ViewController.swift */,
+				E1DD4BDE21355D420065FF24 /* Main.storyboard */,
+				E1DD4BE121355D430065FF24 /* Assets.xcassets */,
+				E1DD4BE321355D430065FF24 /* LaunchScreen.storyboard */,
+				E1DD4BE621355D430065FF24 /* Info.plist */,
+				E1DD4BF321355E1D0065FF24 /* AnotherViewController.swift */,
+				E1DD4BF521355E2A0065FF24 /* AnotherViewController.storyboard */,
+			);
+			path = SimpleApp;
+			sourceTree = "<group>";
+		};
+		E1DD4BEC21355D6D0065FF24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DD4C102135828E0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4C142135828F0065FF24 /* DynamicLib1.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4C302135845B0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4C342135845C0065FF24 /* DynamicLib2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4C4B2135846B0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4C4F2135846C0065FF24 /* DynamicLib3.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4C662135847A0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4C6A2135847C0065FF24 /* DynamicLib4.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4C81213584890065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4C852135848A0065FF24 /* DynamicLib5.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4C9C213584A10065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4CA0213584A30065FF24 /* DynamicLib6.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4CB7213584AF0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4CBB213584B00065FF24 /* DynamicLib7.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4CD2213584BC0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4CD6213584BD0065FF24 /* DynamicLib8.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4CED213584C90065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4CF1213584CB0065FF24 /* DynamicLib9.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4D08213584DB0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4D0C213584DD0065FF24 /* DynamicLib10.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4D2B213586BC0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4D2F213586BD0065FF24 /* libStaticLib1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4D44213586CA0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4D48213586CB0065FF24 /* libStaticLib2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4D5D213586D50065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4D61213586D60065FF24 /* libStaticLib3.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4D76213586E30065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4D7A213586E40065FF24 /* libStaticLib4.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4D8F213586F50065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4D93213586F60065FF24 /* libStaticLib5.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4DA8213587000065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4DAC213587020065FF24 /* libStaticLib6.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4DC1213587120065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4DC5213587130065FF24 /* libStaticLib7.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4DDA2135871E0065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4DDE2135871F0065FF24 /* libStaticLib8.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4DF3213587280065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4DF72135872A0065FF24 /* libStaticLib9.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DD4E0C213587360065FF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DD4E10213587370065FF24 /* libStaticLib10.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1DD4BD621355D420065FF24 /* SimpleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DD4BE921355D430065FF24 /* Build configuration list for PBXNativeTarget "SimpleApp" */;
+			buildPhases = (
+				E1DD4BD321355D420065FF24 /* Sources */,
+				E1DD4BD421355D420065FF24 /* Frameworks */,
+				E1DD4BD521355D420065FF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleApp;
+			productName = SimpleApp;
+			productReference = E1DD4BD721355D420065FF24 /* SimpleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1DD4BCF21355D420065FF24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = bbc;
+				TargetAttributes = {
+					E1DD4BD621355D420065FF24 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E1DD4BD221355D420065FF24 /* Build configuration list for PBXProject "SimpleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1DD4BCE21355D420065FF24;
+			productRefGroup = E1DD4BD821355D420065FF24 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E1DD4C102135828E0065FF24 /* Products */;
+					ProjectRef = E1DD4C0F2135828E0065FF24 /* DynamicLib1.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4D08213584DB0065FF24 /* Products */;
+					ProjectRef = E1DD4D07213584DB0065FF24 /* DynamicLib10.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4C302135845B0065FF24 /* Products */;
+					ProjectRef = E1DD4C2F2135845B0065FF24 /* DynamicLib2.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4C4B2135846B0065FF24 /* Products */;
+					ProjectRef = E1DD4C4A2135846B0065FF24 /* DynamicLib3.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4C662135847A0065FF24 /* Products */;
+					ProjectRef = E1DD4C652135847A0065FF24 /* DynamicLib4.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4C81213584890065FF24 /* Products */;
+					ProjectRef = E1DD4C80213584890065FF24 /* DynamicLib5.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4C9C213584A10065FF24 /* Products */;
+					ProjectRef = E1DD4C9B213584A10065FF24 /* DynamicLib6.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4CB7213584AF0065FF24 /* Products */;
+					ProjectRef = E1DD4CB6213584AF0065FF24 /* DynamicLib7.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4CD2213584BC0065FF24 /* Products */;
+					ProjectRef = E1DD4CD1213584BC0065FF24 /* DynamicLib8.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4CED213584C90065FF24 /* Products */;
+					ProjectRef = E1DD4CEC213584C90065FF24 /* DynamicLib9.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4D2B213586BC0065FF24 /* Products */;
+					ProjectRef = E1DD4D2A213586BC0065FF24 /* StaticLib1.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4E0C213587360065FF24 /* Products */;
+					ProjectRef = E1DD4E0B213587360065FF24 /* StaticLib10.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4D44213586CA0065FF24 /* Products */;
+					ProjectRef = E1DD4D43213586CA0065FF24 /* StaticLib2.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4D5D213586D50065FF24 /* Products */;
+					ProjectRef = E1DD4D5C213586D50065FF24 /* StaticLib3.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4D76213586E30065FF24 /* Products */;
+					ProjectRef = E1DD4D75213586E30065FF24 /* StaticLib4.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4D8F213586F50065FF24 /* Products */;
+					ProjectRef = E1DD4D8E213586F50065FF24 /* StaticLib5.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4DA8213587000065FF24 /* Products */;
+					ProjectRef = E1DD4DA7213587000065FF24 /* StaticLib6.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4DC1213587120065FF24 /* Products */;
+					ProjectRef = E1DD4DC0213587120065FF24 /* StaticLib7.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4DDA2135871E0065FF24 /* Products */;
+					ProjectRef = E1DD4DD92135871E0065FF24 /* StaticLib8.xcodeproj */;
+				},
+				{
+					ProductGroup = E1DD4DF3213587280065FF24 /* Products */;
+					ProjectRef = E1DD4DF2213587280065FF24 /* StaticLib9.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E1DD4BD621355D420065FF24 /* SimpleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E1DD4C142135828F0065FF24 /* DynamicLib1.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib1.framework;
+			remoteRef = E1DD4C132135828F0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4C342135845C0065FF24 /* DynamicLib2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib2.framework;
+			remoteRef = E1DD4C332135845C0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4C4F2135846C0065FF24 /* DynamicLib3.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib3.framework;
+			remoteRef = E1DD4C4E2135846C0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4C6A2135847C0065FF24 /* DynamicLib4.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib4.framework;
+			remoteRef = E1DD4C692135847C0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4C852135848A0065FF24 /* DynamicLib5.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib5.framework;
+			remoteRef = E1DD4C842135848A0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4CA0213584A30065FF24 /* DynamicLib6.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib6.framework;
+			remoteRef = E1DD4C9F213584A30065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4CBB213584B00065FF24 /* DynamicLib7.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib7.framework;
+			remoteRef = E1DD4CBA213584B00065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4CD6213584BD0065FF24 /* DynamicLib8.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib8.framework;
+			remoteRef = E1DD4CD5213584BD0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4CF1213584CB0065FF24 /* DynamicLib9.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib9.framework;
+			remoteRef = E1DD4CF0213584CB0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4D0C213584DD0065FF24 /* DynamicLib10.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DynamicLib10.framework;
+			remoteRef = E1DD4D0B213584DD0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4D2F213586BD0065FF24 /* libStaticLib1.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib1.a;
+			remoteRef = E1DD4D2E213586BD0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4D48213586CB0065FF24 /* libStaticLib2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib2.a;
+			remoteRef = E1DD4D47213586CB0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4D61213586D60065FF24 /* libStaticLib3.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib3.a;
+			remoteRef = E1DD4D60213586D60065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4D7A213586E40065FF24 /* libStaticLib4.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib4.a;
+			remoteRef = E1DD4D79213586E40065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4D93213586F60065FF24 /* libStaticLib5.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib5.a;
+			remoteRef = E1DD4D92213586F60065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4DAC213587020065FF24 /* libStaticLib6.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib6.a;
+			remoteRef = E1DD4DAB213587020065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4DC5213587130065FF24 /* libStaticLib7.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib7.a;
+			remoteRef = E1DD4DC4213587130065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4DDE2135871F0065FF24 /* libStaticLib8.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib8.a;
+			remoteRef = E1DD4DDD2135871F0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4DF72135872A0065FF24 /* libStaticLib9.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib9.a;
+			remoteRef = E1DD4DF62135872A0065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1DD4E10213587370065FF24 /* libStaticLib10.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLib10.a;
+			remoteRef = E1DD4E0F213587370065FF24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DD4BD521355D420065FF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DD4BE521355D430065FF24 /* LaunchScreen.storyboard in Resources */,
+				E1DD4BE221355D430065FF24 /* Assets.xcassets in Resources */,
+				E1DD4BF621355E2A0065FF24 /* AnotherViewController.storyboard in Resources */,
+				E1DD4BE021355D420065FF24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1DD4BD321355D420065FF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DD4BDD21355D420065FF24 /* ViewController.swift in Sources */,
+				E1DD4BDB21355D420065FF24 /* AppDelegate.swift in Sources */,
+				E1DD4BF421355E1D0065FF24 /* AnotherViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1DD4BDE21355D420065FF24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DD4BDF21355D420065FF24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1DD4BE321355D430065FF24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DD4BE421355D430065FF24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1DD4BE721355D430065FF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1DD4BE821355D430065FF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1DD4BEA21355D430065FF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPH9EJ7977;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleApp",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleApp";
+				INFOPLIST_FILE = SimpleApp/Info.plist;
+				LD_DYLIB_INSTALL_NAME = "$(PROJECT_DIR)/SimpleApp";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(PROJECT_DIR)/SimpleApp",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleApp";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.iplayer.SimpleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1DD4BEB21355D430065FF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPH9EJ7977;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SimpleApp",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleApp";
+				INFOPLIST_FILE = SimpleApp/Info.plist;
+				LD_DYLIB_INSTALL_NAME = "$(PROJECT_DIR)/SimpleApp";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(PROJECT_DIR)/SimpleApp",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SimpleApp";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.iplayer.SimpleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1DD4BD221355D420065FF24 /* Build configuration list for PBXProject "SimpleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DD4BE721355D430065FF24 /* Debug */,
+				E1DD4BE821355D430065FF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DD4BE921355D430065FF24 /* Build configuration list for PBXNativeTarget "SimpleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DD4BEA21355D430065FF24 /* Debug */,
+				E1DD4BEB21355D430065FF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1DD4BCF21355D420065FF24 /* Project object */;
+}
